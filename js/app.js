@@ -34,7 +34,6 @@
         <div class="card-info">
           <h3 class="pfg_title_37">${esc(item.title)}</h3>
           ${item.description?`<p class="pfg_desc_37">${esc(item.description)}</p>`:''}
-          <div class="card-arrow" aria-hidden="true">→</div>
         </div>
       </div>
     </article>`;
